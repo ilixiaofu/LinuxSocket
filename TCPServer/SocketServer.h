@@ -6,11 +6,7 @@
 #ifndef SOCKET_SERVER_H
 #define SOCKET_SERVER_H
 
-#include <unistd.h>
-#include <arpa/inet.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <fcntl.h>
+#include "meta.h"
 #include "Connector.h"
 
 class SocketServer

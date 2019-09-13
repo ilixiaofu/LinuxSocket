@@ -6,9 +6,7 @@
 #ifndef CONNECTOR_H
 #define CONNECTOR_H
 
-#include <arpa/inet.h>
-#include <unistd.h>
-#include <fcntl.h>
+#include "meta.h"
 
 class Connector
 {
